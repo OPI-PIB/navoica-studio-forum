@@ -9,6 +9,13 @@ from machina import get_apps as get_machina_apps
 from machina import MACHINA_MAIN_STATIC_DIR
 from machina import MACHINA_MAIN_TEMPLATE_DIR
 
+import sentry_sdk
+from sentry_sdk.integrations.django import DjangoIntegration
+
+sentry_sdk.init(
+    dsn="https://9497b37db5f64d32a69db973b6e76414@sentry.io/1843003",
+    integrations=[DjangoIntegration()]
+)
 
 PROJECT_PATH = Path(__file__).ancestor(3)
 
