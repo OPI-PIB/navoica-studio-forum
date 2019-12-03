@@ -1,2 +1,7 @@
-!**/__pycache__/
+*.pyc
+*.pyo
+*.swp
+*.egg-info
+*.conf
+__pycache__
 project/test.db
