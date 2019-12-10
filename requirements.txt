@@ -59,7 +59,7 @@ pytest-xdist==1.22.5
 python-dateutil==2.7.3
 python-slugify==1.2.5
 pytz==2018.5
-requests==2.19.1
+requests==2.20.0
 simplegeneric==0.8.1
 six==1.11.0
 snowballstemmer==1.2.1
