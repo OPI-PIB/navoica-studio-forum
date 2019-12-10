@@ -49,3 +49,9 @@ STATICFILES_DIRS = (
 )
 
 STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
+
+SOCIALACCOUNT_PROVIDERS = {
+  'edx': {
+      'EDX_URL': "http://localhost:18000",
+  }
+}

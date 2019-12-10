@@ -5,3 +5,4 @@
 *.conf
 __pycache__
 project/test.db
+project/src/*

@@ -23,6 +23,7 @@ urlpatterns = [
     # Apps
     url(r'', include('example.apps.auth.urls')),
     url(r'', include(board.urls)),
+    url(r'^accounts/', include('allauth.urls')),
 ]
 
 if settings.DEBUG:

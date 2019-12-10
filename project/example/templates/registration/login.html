@@ -25,7 +25,16 @@
                         <div class="form-actions">
                             <a href="{% url 'password_reset' %}"class="btn btn-large btn-default">{% trans "Forgot password?" %}</a>
                             <input type="submit" class="btn btn-large btn-primary" value="{% trans "Login" %}" />
+                            {% load account socialaccount %}
+
+                            {% get_providers as socialaccount_providers %}
+
+                            {% for provider in socialaccount_providers %}
+                                <a title="{{provider.name}}" class="btn btn-large btn-default" 
+                                 href="{% provider_login_url provider.id process=process scope=scope auth_params=auth_params %}"><i class="fa fa-{{provider.name}}" id="social_icon"></i>{% if provider.name == 'Edx' %}Navoica{% else %}{{provider.name}} {% endif %}</a>
+                            {% endfor %}
                         </div>
+                        
                     </form>
                 </div>
             </div>

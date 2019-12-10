@@ -10,7 +10,7 @@ chardet==3.0.4
 codecov==2.0.15
 coverage==4.5.1
 decorator==4.3.0
-Django==2.1
+Django==2.1.5
 django-debug-toolbar==1.9.1
 django-haystack==2.8.1
 django-js-asset==1.1.0
@@ -76,3 +76,5 @@ Unipath==1.1
 urllib3==1.23
 wcwidth==0.1.7
 Whoosh==2.7.4
+sentry-sdk
+-e git+https://github.com/hoffmannkrzysztof/django-allauth.git#egg=django-allauth
