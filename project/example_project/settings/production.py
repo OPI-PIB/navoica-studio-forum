@@ -6,6 +6,6 @@ STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 
 SOCIALACCOUNT_PROVIDERS = {
   'edx': {
-      'EDX_URL': "https://studio-draft.navoica.pl",
+      'EDX_URL': "https://draft.navoica.pl",
   }
 }
