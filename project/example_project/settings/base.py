@@ -96,10 +96,10 @@ DATABASES = {
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 # although not all choices may be available on all operating systems.
 # In a Windows environment this must be set to your system time zone.
-TIME_ZONE = 'EST'
+TIME_ZONE = 'UTC'
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#language-code
-LANGUAGE_CODE = 'en'
+LANGUAGE_CODE = 'pl'
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#site-id
 SITE_ID = 1
@@ -117,9 +117,11 @@ USE_L10N = True
 USE_TZ = True
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#languages
-LANGUAGES = (
-    ('en', 'English'),
-)
+LANGUAGES = [
+    ('en', u'English'),
+    ('pl', u'Polski'),  # Polish
+    ('en-US', u'English_US'),  # English_US
+]
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#locale-paths
 LOCALE_PATHS = (

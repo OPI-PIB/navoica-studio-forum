@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Emilia Dolega <emilia.dolega@opi.org.pl>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-20 14:09+0000\n"
+"PO-Revision-Date: 2019-12-20 14:19+0000\n"
+"Last-Translator: Emilia Dolega <emilia.dolega@opi.org.pl>, 2019\n"
+"Language-Team: Polish (https://www.transifex.com/navoica/teams/104253/pl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: example/apps/auth/forms.py:11
+msgid "Email address"
+msgstr "Adres e-mail"
+
+#: example/apps/auth/forms.py:45
+msgid "Type your username"
+msgstr "Wprowadź nazwę użytkownika "
+
+#: example/apps/auth/forms.py:50
+msgid "Please type your username to remove your account"
+msgstr "Wprowadź nazwę użytkownika, aby usunąć swoje konto"
+
+#: example/apps/auth/views.py:58
+msgid "Your account has been successfully updated"
+msgstr "Twoje konto zostało pomyślnie zaktualizowane"
+
+#: example/apps/auth/views.py:84
+msgid "Your password has been successfully updated"
+msgstr "Twoje hasło zostało pomyślnie zaktualizowane"
+
+#: example/apps/auth/views.py:110
+msgid "Your account has been removed"
+msgstr "Twoje konto zostało usunięte"
+
+#: example/templates/board_base.html:33
+msgid "Profile"
+msgstr "Profil"
+
+#: example/templates/board_base.html:34
+#: example/templates/registration/base_account.html:9
+msgid "Account"
+msgstr "Konto"
+
+#: example/templates/board_base.html:46
+msgid "Sign out"
+msgstr "Wyloguj się"
+
+#: example/templates/board_base.html:55
+#: example/templates/registration/register.html:4
+#: example/templates/registration/register.html:12
+msgid "Sign up"
+msgstr "Zarejestruj się"
+
+#: example/templates/board_base.html:56
+#: example/templates/registration/login.html:4
+#: example/templates/registration/login.html:12
+msgid "Sign in"
+msgstr "Zaloguj się"
+
+#: example/templates/board_base.html:70
+msgid "Powered by: "
+msgstr "Obsługiwane przez:"
+
+#: example/templates/registration/base_account.html:10
+msgid "Password"
+msgstr "Hasło"
+
+#: example/templates/registration/login.html:26
+msgid "Forgot password?"
+msgstr "Nie pamiętasz hasła?"
+
+#: example/templates/registration/login.html:27
+msgid "Login"
+msgstr "Zaloguj się"
+
+#: example/templates/registration/parameters.html:4
+#: example/templates/registration/parameters.html:12
+#: example/templates/registration/password.html:4
+#: example/templates/registration/unregister.html:4
+msgid "Edit account parameters"
+msgstr "Edytuj ustawienia konta"
+
+#: example/templates/registration/parameters.html:28
+#: example/templates/registration/unregister.html:10
+msgid "Remove your account"
+msgstr "Usuń swoje konto"
+
+#: example/templates/registration/parameters.html:30
+#: example/templates/registration/password.html:30
+msgid "Submit"
+msgstr "Prześlij"
+
+#: example/templates/registration/password.html:10
+msgid "Edit account password"
+msgstr "Zmień hasło"
+
+#: example/templates/registration/password_reset_complete.html:4
+#: example/templates/registration/password_reset_complete.html:12
+#: example/templates/registration/password_reset_confirm.html:4
+#: example/templates/registration/password_reset_confirm.html:12
+#: example/templates/registration/password_reset_done.html:4
+#: example/templates/registration/password_reset_done.html:12
+#: example/templates/registration/password_reset_form.html:4
+#: example/templates/registration/password_reset_form.html:12
+msgid "Password reset"
+msgstr "Zresetuj hasło"
+
+#: example/templates/registration/password_reset_complete.html:14
+msgid "Your password has been set. You may go ahead and log in now."
+msgstr "Twoje hasło zostało ustawione. Możesz już się zalogować."
+
+#: example/templates/registration/password_reset_complete.html:15
+msgid "Log in"
+msgstr "Zaloguj się"
+
+#: example/templates/registration/password_reset_confirm.html:15
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr ""
+"Wprowadź hasło dwa razy, abyśmy mogli zweryfikować czy zostało wpisane "
+"poprawnie."
+
+#: example/templates/registration/password_reset_confirm.html:22
+#: example/templates/registration/password_reset_form.html:20
+msgid "Reset my password"
+msgstr "Zresetuj moje hasło"
+
+#: example/templates/registration/password_reset_confirm.html:26
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+"Link do zresetowania hasła był nieprawidłowy, prawdopodobnie dlatego, że "
+"został już użyty. Ponów żądanie o zresetowanie hasła."
+
+#: example/templates/registration/password_reset_done.html:14
+msgid ""
+"We've emailed you instructions for setting your password, if an account "
+"exists with the email you entered. You should receive them shortly."
+msgstr ""
+"Wyślemy Ci e-mailem instrukcje dotyczące ustawiania hasła, jeśli istnieje "
+"konto połączone z tym adresem e-mail. Wkrótce otrzymasz wiadomość."
+
+#: example/templates/registration/password_reset_done.html:15
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with, and check your spam folder."
+msgstr ""
+"Jeśli nie otrzymałeś wiadomości e-mail, upewnij się, że e-mail, którego "
+"użyłeś do rejestracji jest poprawny i sprawdź folder spam."
+
+#: example/templates/registration/register.html:28
+msgid "Register"
+msgstr "Zarejestruj się"
+
+#: example/templates/registration/unregister.html:22
+msgid "Confirm"
+msgstr "Potwierdź"

@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-20 14:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: example/apps/auth/forms.py:11
+msgid "Email address"
+msgstr ""
+
+#: example/apps/auth/forms.py:45
+msgid "Type your username"
+msgstr ""
+
+#: example/apps/auth/forms.py:50
+msgid "Please type your username to remove your account"
+msgstr ""
+
+#: example/apps/auth/views.py:58
+msgid "Your account has been successfully updated"
+msgstr ""
+
+#: example/apps/auth/views.py:84
+msgid "Your password has been successfully updated"
+msgstr ""
+
+#: example/apps/auth/views.py:110
+msgid "Your account has been removed"
+msgstr ""
+
+#: example/templates/board_base.html:33
+msgid "Profile"
+msgstr ""
+
+#: example/templates/board_base.html:34
+#: example/templates/registration/base_account.html:9
+msgid "Account"
+msgstr ""
+
+#: example/templates/board_base.html:46
+msgid "Sign out"
+msgstr ""
+
+#: example/templates/board_base.html:55
+#: example/templates/registration/register.html:4
+#: example/templates/registration/register.html:12
+msgid "Sign up"
+msgstr ""
+
+#: example/templates/board_base.html:56
+#: example/templates/registration/login.html:4
+#: example/templates/registration/login.html:12
+msgid "Sign in"
+msgstr ""
+
+#: example/templates/board_base.html:70
+msgid "Powered by: "
+msgstr ""
+
+#: example/templates/registration/base_account.html:10
+msgid "Password"
+msgstr ""
+
+#: example/templates/registration/login.html:26
+msgid "Forgot password?"
+msgstr ""
+
+#: example/templates/registration/login.html:27
+msgid "Login"
+msgstr ""
+
+#: example/templates/registration/parameters.html:4
+#: example/templates/registration/parameters.html:12
+#: example/templates/registration/password.html:4
+#: example/templates/registration/unregister.html:4
+msgid "Edit account parameters"
+msgstr ""
+
+#: example/templates/registration/parameters.html:28
+#: example/templates/registration/unregister.html:10
+msgid "Remove your account"
+msgstr ""
+
+#: example/templates/registration/parameters.html:30
+#: example/templates/registration/password.html:30
+msgid "Submit"
+msgstr ""
+
+#: example/templates/registration/password.html:10
+msgid "Edit account password"
+msgstr ""
+
+#: example/templates/registration/password_reset_complete.html:4
+#: example/templates/registration/password_reset_complete.html:12
+#: example/templates/registration/password_reset_confirm.html:4
+#: example/templates/registration/password_reset_confirm.html:12
+#: example/templates/registration/password_reset_done.html:4
+#: example/templates/registration/password_reset_done.html:12
+#: example/templates/registration/password_reset_form.html:4
+#: example/templates/registration/password_reset_form.html:12
+msgid "Password reset"
+msgstr ""
+
+#: example/templates/registration/password_reset_complete.html:14
+msgid "Your password has been set. You may go ahead and log in now."
+msgstr ""
+
+#: example/templates/registration/password_reset_complete.html:15
+msgid "Log in"
+msgstr ""
+
+#: example/templates/registration/password_reset_confirm.html:15
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr ""
+
+#: example/templates/registration/password_reset_confirm.html:22
+#: example/templates/registration/password_reset_form.html:20
+msgid "Reset my password"
+msgstr ""
+
+#: example/templates/registration/password_reset_confirm.html:26
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+
+#: example/templates/registration/password_reset_done.html:14
+msgid ""
+"We've emailed you instructions for setting your password, if an account "
+"exists with the email you entered. You should receive them shortly."
+msgstr ""
+
+#: example/templates/registration/password_reset_done.html:15
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with, and check your spam folder."
+msgstr ""
+
+#: example/templates/registration/register.html:28
+msgid "Register"
+msgstr ""
+
+#: example/templates/registration/unregister.html:22
+msgid "Confirm"
+msgstr ""
