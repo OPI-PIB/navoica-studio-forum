@@ -10,12 +10,7 @@ from machina import MACHINA_MAIN_STATIC_DIR
 from machina import MACHINA_MAIN_TEMPLATE_DIR
 
 import sentry_sdk
-from sentry_sdk.integrations.django import DjangoIntegration
-
-sentry_sdk.init(
-    dsn="https://9497b37db5f64d32a69db973b6e76414@sentry.io/1843003",
-    integrations=[DjangoIntegration()]
-)
+sentry_sdk.init("https://b3b2836977f84628861ef706761d751a@sentry.navoica.pl/8")
 
 PROJECT_PATH = Path(__file__).ancestor(3)
 
